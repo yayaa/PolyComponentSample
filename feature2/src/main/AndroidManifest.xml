@@ -1,0 +1,23 @@
+<manifest package="com.yayandroid.polycomponentsample.feature2"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application>
+
+        <activity android:name=".Feature2Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host=""
+                    android:path="/feature2"
+                    android:scheme="sample"
+                    tools:ignore="AppLinkUrlError" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

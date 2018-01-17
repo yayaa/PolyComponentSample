@@ -1,0 +1,5 @@
+dependencies {
+    implementation project(":base")
+    implementation project(":feature1")
+    implementation project(":feature2")
+}
